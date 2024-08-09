@@ -1,0 +1,47 @@
+## Dominando GIT
+
+git init → Para iniciar iniciar o arquivo GIT
+
+git status → mostra os arquivos a para serem enviados e modificados
+
+git add nome → o arquivo que foi escolhido para ser adicionado ao commit ( quando ele é adicionado ele começa a ser monitorado pelo git) caso deseja que seja adicionado todos os arquivos fazendo git add .
+
+No VScode os arquivos monitorados tem uma A ao lado e U caso nao tenha sido adicionado
+
+Após qualquer alteração e se chamarmos git status, ira aparecer um modified, com isso podemos fazer um git add novamente ou um git restore caso desejamos retornar o código ao estado anterior 
+
+Um commit é salvo em repositório local, para enviar apenas 1 arquivo fazemos
+
+git commit nome.txt -m “mensagem sobre o que foi feito”
+
+o arquivo nome.txt é o que vai ser adicionado, ja o que estar entre aspas, é a mensagem da qual vai ser descrita para ele ser enviado! Após esse commit ele vai ficar salvo localmente pronto pra ser enviado para GitHub 
+
+Podemos subir esse commit diretamente para o GutHub para isso fazemos 
+
+git branch -M main
+
+git branch → é o comando base, com ele podemos criar , litar e delete
+
+-M → é um atalho para move(ou renomear) uma branch
+
+main → é o nome dela
+
+git remote add origin https://github.com/…
+
+git remote é o comando para gerenciar os repositórios associados ao seu repositório local
+
+add  é pra adicionar 
+
+origin é o nome padrão 
+
+https://github.com/… é a url
+
+git push -u origin main
+
+git push é para enviar as mudanças de códigos locais para remotas
+
+-u é pra rastrear uma branch específica 
+
+origin é o nome padrão 
+
+main é o nome da branch local que voce deseja enviar para a remota
