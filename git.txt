@@ -4,9 +4,9 @@ git init → Para iniciar iniciar o arquivo GIT
 
 git status → mostra os arquivos a para serem enviados e modificados
 
-git add nome → o arquivo que foi escolhido para ser adicionado ao commit ( quando ele é adicionado ele começa a ser monitorado pelo git) caso deseja que seja adicionado todos os arquivos fazendo git add .
+git add nome → o arquivo que foi escolhido foi adicionado para ser adcionado ao commit ( quando ele é adicionado ele começa a ser monitorado pelo git) caso deseja que seja adicionado todos os arquivos fazendo git add .
 
-No VScode os arquivos monitorados tem uma A ao lado e U caso nao tenha sido adicionado
+No VScode os arquivos monitorados tem uma A ao lado e U caso não tenha sido adicionado
 
 Após qualquer alteração e se chamarmos git status, ira aparecer um modified, com isso podemos fazer um git add novamente ou um git restore caso desejamos retornar o código ao estado anterior 
 
@@ -44,4 +44,14 @@ git push é para enviar as mudanças de códigos locais para remotas
 
 origin é o nome padrão 
 
-main é o nome da branch local que voce deseja enviar para a remota
+main é o nome da branch local que você deseja enviar para a remota
+
+git clone https://github/robsonluan95/revisando-_git.git  
+
+git clone é para clonar
+
+https://github/robsonluan95/revisando-_git.git é pra dizer qual link do repositório 
+
+git clone https://github/robsonluan95/revisando-_git.git .   
+
+adicionar o ponto no final para que seja clonado sem a pasta
