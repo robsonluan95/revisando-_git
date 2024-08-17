@@ -4,7 +4,7 @@ git init → Para iniciar iniciar o arquivo GIT
 
 git status → mostra os arquivos a para serem enviados e modificados
 
-git add nome → o arquivo que foi escolhido foi adicionado para ser adicionado ao commit ( quando ele é adicionado ele começa a ser monitorado pelo git) caso deseja que seja adicionado todos os arquivos fazendo git add .
+git add nome → o arquivo que foi escolhido foi adicionado para ser adcionado ao commit ( quando ele é adicionado ele começa a ser monitorado pelo git) caso deseja que seja adicionado todos os arquivos fazendo git add .
 
 No VScode os arquivos monitorados tem uma A ao lado e U caso não tenha sido adicionado
 
@@ -66,6 +66,4 @@ git checkout nomeDoArquivo → ele volta pra o jeito original
 
 ignorando arquivos - para dont env e senhas basta criar um arquivo e com nome gitignore e dentro dele o nome dos arquivos e pastas 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d174488-8ca4-4aa0-86c4-2d5dbabec0a7/176e4dfc-628e-47e8-9b87-e07c2380ca9e/image.png)
-
-add
+git reset —hard origin/main → ele volta pra o jeito que estar no github mas o /main é o nome da branch
