@@ -1,0 +1,11 @@
+## Dominando Branch
+
+É uma meneira de que o git disponibiliza para separar as versões do projetos
+
+Quando criamos um repositorio ele sempre inicia na Branch main - quando começamos a programar nunca criamos dietamente na main, ja que esse codigo é a principal. Devemos criar uma segundaria para caso tenha erros e depois unimos 
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d174488-8ca4-4aa0-86c4-2d5dbabec0a7/60c66ec6-e121-47dc-aba7-2b79b00e8fff/image.png)
+
+## Como criar uma Branch
+
+git branch -M main → ele volta pra o jeito que estar no github mas o /main é o nome da branch
