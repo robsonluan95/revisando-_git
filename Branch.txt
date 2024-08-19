@@ -8,4 +8,8 @@ Quando criamos um repositorio ele sempre inicia na Branch main - quando começam
 
 ## Como criar uma Branch
 
-git branch -M main → ele volta pra o jeito que estar no github mas o /main é o nome da branch
+git branch page_branch → Para criamos uma branch (nosso exemplo vamos usar page_branch)
+
+git branch → Para visualizar todas as branch
+
+git checkout page_branch → Para mudar para branch que deseja(nesse caso o exemplo é page_branch)
