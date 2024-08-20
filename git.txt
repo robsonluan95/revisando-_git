@@ -66,4 +66,4 @@ git checkout nomeDoArquivo → ele volta pra o jeito original
 
 ignorando arquivos - para dont env e senhas basta criar um arquivo e com nome gitignore e dentro dele o nome dos arquivos e pastas 
 
-git reset —hard origin/main → ele volta pra o jeito que estar no github mas o /main é o nome da branch
+git reset —hard origin/main → ele volta pra o jeito que estar no github mas o /main é o nome da branchgit 
