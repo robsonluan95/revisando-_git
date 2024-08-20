@@ -13,3 +13,21 @@ git branch page_branch → Para criamos uma branch (nosso exemplo vamos usar pag
 git branch → Para visualizar todas as branch
 
 git checkout page_branch → Para mudar para branch que deseja(nesse caso o exemplo é page_branch)
+
+git checkout -b “page_git_branch” → Para mudar automaticamente para branch que foi criada(nesse caso o exemplo é page_git_branch)
+
+git branch -d page_git_branch → para deletar um branch ( -d → delete. Nesse caso o exemplo é page_git_branch)
+
+## Unindo Branches
+
+git merge page_branch → Para unirmos branchs (nosso exemplo vamos usar page_branch)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d174488-8ca4-4aa0-86c4-2d5dbabec0a7/f51c209e-268f-4ef8-a744-3735a5276041/image.png)
+
+git stash → Para salvar o estado e voltar o codigo do ultimo commit
+
+git stash list → Para ver todos os commits
+
+git stash apply valor→ Para voltar a um valor salvo de stash
+
+git stash show -p valor→ Para ver todas as alteracoes que foram feitas
