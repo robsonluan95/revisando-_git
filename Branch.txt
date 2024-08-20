@@ -13,11 +13,3 @@ git branch page_branch → Para criamos uma branch (nosso exemplo vamos usar pag
 git branch → Para visualizar todas as branch
 
 git checkout page_branch → Para mudar para branch que deseja(nesse caso o exemplo é page_branch)
-
-git checkout -b “page_git_branch” → Para mudar automaticamente para branch que foi criada(nesse caso o exemplo é page_git_branch)
-
-git branch -d page_git_branch → para deletar um branch ( -d → delete. Nesse caso o exemplo é page_git_branch)
-
-## Unindo Branches
-
-git merge page_branch → Para unirmos branch's (nosso exemplo vamos usar page_branch)
