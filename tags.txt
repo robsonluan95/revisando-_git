@@ -2,6 +2,8 @@
 
 ## Dominando Tags
 
-É uma meneira de marcar a versão pra ficar de facil acesso , tudo que ta na versao do projeto!
+git tag -a v1.0 -m "primeira versão do sistema” → forma de criar como se fosse um git add . , ta na maquina local
 
-git tag -a v1.0 -m "primeira versao do sitema”
+git tag → para ver todas as tag`s feitas
+
+git show v1.0 → para ver todos os commits’s e todas as alterações
