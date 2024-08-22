@@ -1,0 +1,7 @@
+# Tag’s
+
+## Dominando Tags
+
+É uma meneira de marcar a versão pra ficar de facil acesso , tudo que ta na versao do projeto!
+
+git tag -a v1.0 -m "primeira versao do sitema”
