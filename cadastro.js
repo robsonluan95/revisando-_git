@@ -5,5 +5,7 @@ const singUp = (email) => {
     <div>email</div>
   )
 }
-
+function mostraMensagem(){
+  return "Bem vindo "
+}
 export default cadastro
